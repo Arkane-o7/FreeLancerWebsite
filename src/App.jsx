@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Menu, X, ArrowRight, CheckCircle2, Zap, Target, Database, 
-  Layers, Code2, Mail, Bot, LineChart, ChevronDown, ChevronUp, Github, Linkedin, Mailbox, Command 
+  Layers, Code2, Mail, Bot, LineChart, ChevronDown, ChevronUp, Linkedin, Mailbox, Command 
 } from 'lucide-react';
 
 // --- SCROLL REVEAL COMPONENT ---
@@ -206,7 +206,7 @@ export default function App() {
           <FadeIn delay={100}>
             <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full border border-white/10 bg-[#111] text-xs font-semibold text-gray-300 mb-8 shadow-xl hover:border-white/20 transition-colors duration-300 cursor-default">
               <span className="w-2 h-2 rounded-full bg-[#0A84FF] animate-pulse"></span>
-              <span>AI Automation for B2B Founders</span>
+              <span>AI Automation for Teams Who Move Fast</span>
             </div>
           </FadeIn>
           
@@ -227,7 +227,7 @@ export default function App() {
           
           <FadeIn delay={400}>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
-              <button onClick={() => scrollTo('contact')} className="w-full sm:w-auto bg-[#0A84FF] text-white px-8 py-4 rounded-full text-base font-semibold flex items-center justify-center group shadow-[0_0_30px_rgba(10,132,255,0.3)] hover:shadow-[0_0_50px_rgba(10,132,255,0.5)] hover:scale-105 transition-all duration-300 btn-shine">
+              <button onClick={() => scrollTo('contact')} className="w-full sm:w-auto bg-[#0A84FF] text-white px-8 py-4 rounded-full text-base font-semibold flex items-center justify-center group shadow-[0_0_30px_rgba(10,132,255,0.3)] hover:shadow-[0_0_50px_rgba(10,132,255,0.5)] hover:scale-105 transition-all duration-300">
                 Book Free Automation Audit
                 <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
@@ -304,7 +304,7 @@ export default function App() {
         <FadeIn>
           <div className="mb-16">
             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 max-w-3xl">Built from scratch.<br/>Not borrowed.</h2>
-            <p className="text-xl text-gray-400 max-w-2xl">I don't sell packages. I build systems designed exclusively for your workflow and ICP.</p>
+            <p className="text-xl text-gray-400 max-w-2xl">I don't sell packages. I build systems designed exclusively for your workflow and ideal customer type.</p>
           </div>
         </FadeIn>
 
@@ -315,7 +315,7 @@ export default function App() {
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-b from-[#0A84FF]/5 to-transparent pointer-events-none group-hover:from-[#0A84FF]/10 transition-colors duration-500"></div>
               <div className="inline-block bg-[#0A84FF] text-white font-bold px-4 py-1.5 rounded-full text-xs uppercase tracking-widest mb-8 shadow-[0_0_15px_rgba(10,132,255,0.5)]">Flagship Service</div>
               <h3 className="text-4xl md:text-5xl font-bold tracking-tighter mb-6 group-hover:text-[#0A84FF] transition-colors duration-500">Tailored Lead Gen Engine</h3>
-              <p className="text-xl text-gray-300 mb-10 max-w-3xl">A fully custom, AI-powered machine built to scrape, enrich, score, and contact your exact ICP without manual input.</p>
+              <p className="text-xl text-gray-300 mb-10 max-w-3xl">A fully custom, AI-powered machine built to scrape, enrich, score, and contact your exact ideal customer type without manual input.</p>
               
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
                 {[
@@ -386,7 +386,7 @@ export default function App() {
                 <div className="md:w-1/2 p-8 bg-black/40 flex items-center justify-center min-h-[300px] relative overflow-hidden group-hover:bg-black/20 transition-colors duration-700">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(10,132,255,0.05)_0,transparent_100%)] group-hover:opacity-100 opacity-50 transition-opacity duration-700"></div>
                   <div className="w-full max-w-sm space-y-3 relative z-10 transform group-hover:scale-105 transition-transform duration-700">
-                    <div className="flex justify-between text-xs text-gray-500 font-mono mb-2"><span>Dashboard.csv</span><span className="text-green-500 flex items-center"><span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-1 animate-pulse"></span>Live</span></div>
+                    <div className="flex justify-between text-xs text-gray-500 font-mono mb-2"><span>Leads.csv</span><span className="text-green-500 flex items-center"><span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-1 animate-pulse"></span>Live</span></div>
                     {[94, 88, 76].map((score, i) => (
                       <div key={i} className="bg-[#111] p-4 rounded-xl border border-white/10 flex items-center justify-between shadow-2xl group-hover:border-[#0A84FF]/20 transition-colors" style={{ transitionDelay: `${i * 100}ms` }}>
                         <div className="h-2 w-full max-w-[120px] bg-white/10 rounded-full overflow-hidden">
@@ -442,13 +442,16 @@ export default function App() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-8">Builder first.<br/>Student second.</h2>
               <div className="space-y-6 text-gray-400 text-xl font-light leading-relaxed">
-                <p>I got tired of watching smart people waste their time on work that machines should be doing.</p>
+                <p>I am Dheeraj. I got tired of watching smart people waste their time on work that machines should be doing.</p>
                 <p>I build custom lead engines and workflow automations from scratch, designed around how your specific business actually works.</p>
                 <p className="text-white font-medium">I think like a founder, not a contractor. I care about the outcome and whether the system I built actually makes you money.</p>
               </div>
-              <div className="mt-12 flex space-x-4">
-                <button className="w-12 h-12 rounded-full bg-[#111] border border-white/10 flex items-center justify-center hover:bg-white hover:text-black hover:scale-110 transition-all duration-300 shadow-lg"><Linkedin size={20}/></button>
-                <button className="w-12 h-12 rounded-full bg-[#111] border border-white/10 flex items-center justify-center hover:bg-white hover:text-black hover:scale-110 transition-all duration-300 shadow-lg"><Github size={20}/></button>
+              <div className="mt-12 flex items-center gap-4 flex-wrap">
+                <a href="https://www.linkedin.com/in/dheeraj-sai-samineni/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-[#111] border border-white/10 flex items-center justify-center hover:bg-white hover:text-black hover:scale-110 transition-all duration-300 shadow-lg"><Linkedin size={20}/></a>
+                <a href="mailto:dheerajsai.samineni@outlook.com" className="w-12 h-12 rounded-full bg-[#111] border border-white/10 flex items-center justify-center hover:bg-white hover:text-black hover:scale-110 transition-all duration-300 shadow-lg"><Mail size={20}/></a>
+                <span className="text-sm text-gray-400 border border-white/10 bg-[#111]/60 rounded-full px-4 py-2">
+                  Hyderabad / Bangalore
+                </span>
               </div>
             </div>
           </FadeIn>
@@ -459,7 +462,7 @@ export default function App() {
               <h3 className="text-2xl font-bold tracking-tight mb-8">The Process</h3>
               <div className="space-y-8">
                 {[
-                  { n: '01', t: 'Audit Call', d: '20 mins. Map out your ICP and current bottlenecks.' },
+                  { n: '01', t: 'Audit Call', d: '20 mins. Map out your ideal customer type and current bottlenecks.' },
                   { n: '02', t: 'Blueprint', d: 'Review the custom architecture before building starts.' },
                   { n: '03', t: 'Build & Test', d: 'System assembled in Make.com. Live demo in days.' },
                   { n: '04', t: 'Launch', d: 'Engine goes live. Leads flow into your dashboard.' },
@@ -484,14 +487,18 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A84FF]/5 to-transparent rounded-[3rem] pointer-events-none"></div>
         
         <FadeIn direction="up">
-          <div className="max-w-4xl mx-auto bg-[#111] border border-white/10 hover:border-[#0A84FF]/30 transition-colors duration-700 rounded-[3rem] p-8 md:p-16 relative z-10 text-center shadow-2xl shadow-black overflow-hidden group">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[#0A84FF]/10 blur-[100px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none"></div>
+          <div className="max-w-4xl mx-auto bg-[#0A84FF]/5 rounded-[2rem] p-8 md:p-12 border border-[#0A84FF]/20 relative overflow-hidden group hover:border-[#0A84FF]/40 transition-all duration-500 shadow-2xl shadow-black/40">
+            <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-b from-[#0A84FF]/6 via-[#0A84FF]/[0.04] to-transparent pointer-events-none group-hover:from-[#0A84FF]/12 transition-colors duration-500"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(10,132,255,0.2)_0,transparent_58%)] opacity-50 group-hover:opacity-80 transition-opacity duration-700 pointer-events-none"></div>
             
-            <div className="relative z-10">
-              <h2 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6">Let's build.</h2>
+            <div className="relative z-10 text-center">
+              <div className="inline-block bg-[#0A84FF] text-white font-bold px-4 py-1.5 rounded-full text-xs uppercase tracking-widest mb-8 shadow-[0_0_15px_rgba(10,132,255,0.5)]">
+                Free Audit
+              </div>
+              <h2 className="text-5xl md:text-6xl font-bold tracking-tighter mb-6 group-hover:text-[#0A84FF] transition-colors duration-500">Let's build.</h2>
               <p className="text-xl text-gray-400 mb-12 max-w-xl mx-auto">Book a free 20-minute audit. No pitch. Just a technical conversation about your bottleneck.</p>
               
-              <form className="max-w-md mx-auto space-y-4 text-left" onSubmit={handleFormSubmit}>
+              <form className="max-w-md mx-auto space-y-4 text-left bg-[#111]/50 border border-white/10 p-5 md:p-6 rounded-3xl backdrop-blur-sm" onSubmit={handleFormSubmit}>
                 <div className="relative group/input">
                   <input 
                     type="text" 
@@ -555,9 +562,9 @@ export default function App() {
       <footer className="py-8 px-8 max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 font-mono border-t border-white/5 mt-10">
         <div className="mb-4 md:mb-0">© {new Date().getFullYear()} SYS.ARCHITECT</div>
         <div className="flex space-x-6">
-          <a href="#" className="hover:text-white hover:-translate-y-1 transition-all duration-300">LinkedIn</a>
-          <a href="#" className="hover:text-white hover:-translate-y-1 transition-all duration-300">GitHub</a>
-          <a href="mailto:hello@yourdomain.com" className="hover:text-white hover:-translate-y-1 transition-all duration-300">Email</a>
+          <a href="https://www.linkedin.com/in/dheeraj-sai-samineni/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:-translate-y-1 transition-all duration-300">LinkedIn</a>
+          <a href="mailto:dheerajsai.samineni@outlook.com" className="hover:text-white hover:-translate-y-1 transition-all duration-300">dheerajsai.samineni@outlook.com</a>
+          <span className="text-gray-500">Hyderabad | Bangalore</span>
         </div>
       </footer>
 
